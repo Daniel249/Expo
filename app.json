@@ -1,15 +1,17 @@
 {
   "expo": {
-    "name": "r_auth_flow_react_nav",
+    "name": "test",
     "slug": "r_auth_flow_react_nav",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "rauthflowreactnav",
+    "scheme": "test",
     "userInterfaceStyle": "automatic",
+    "main": "index.tsx",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.daniel249.test"
     },
     "android": {
       "adaptiveIcon": {
@@ -20,7 +22,7 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.anonymous.r_auth_flow_react_nav"
+      "package": "com.daniel249.test"
     },
     "web": {
       "output": "static",
@@ -41,13 +43,19 @@
       ]
     ],
     "experiments": {
-      "typedRoutes": true,
       "reactCompiler": true
     },
     "extra": {
       "eas": {
         "projectId": "5d1707c9-6b68-4952-8af8-7d4061ff7626"
       }
-    }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5d1707c9-6b68-4952-8af8-7d4061ff7626"
+    },
+    "owner": "daniel249"
   }
 }
